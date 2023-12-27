@@ -35,7 +35,7 @@
     //声明文件目录
     "typeRoots": [],
     //加载的声明文件包
-    "types": [],
+    "types": ["naive-ui/volar"],
     //删除注释
     "removeComments": true,
     //允许使用TypeScript项目引用特性，允许将多个子项目组合成一个项目
