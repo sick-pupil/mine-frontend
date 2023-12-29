@@ -1,8 +1,20 @@
+import '@style/main.scss'
+
 import { createApp } from 'vue'
 import App from '@src/App.vue'
 import { createPinia } from 'pinia'
 import router from '@router'
-import {create, NButton, NLayout, NSpace, NLayoutHeader, NLayoutContent, NLayoutFooter, NLayoutSider} from 'naive-ui'
+import {create, 
+  NButton, 
+  NLayout, 
+  NSpace, 
+  NSwitch, 
+  NLayoutHeader, 
+  NLayoutContent, 
+  NLayoutFooter, 
+  NLayoutSider, 
+  NMenu
+} from 'naive-ui'
 
 const app = createApp(App)
 
@@ -14,7 +26,9 @@ const naive = create({
     NLayoutHeader,
     NLayoutContent,
     NLayoutFooter,
-    NLayoutSider
+    NLayoutSider,
+    NSwitch,
+    NMenu
   ]
 })
 

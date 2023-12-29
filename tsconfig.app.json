@@ -60,6 +60,7 @@
       "@router/*": ["./src/router/*"],
       "@stores/*": ["./src/stores/*"],
       "@views/*": ["./src/views/*"],
+      "@style/*": ["./src/style/*"]
     }
   }
 }

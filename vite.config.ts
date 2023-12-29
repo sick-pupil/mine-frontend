@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => {
         localsConvention: 'camelCase',
         scopeBehaviour: 'local',
         generateScopedName: '[name]_[local]_[hash:5]',
-        globalModulePaths: ["./src/global.module.css"],
+        globalModulePaths: ["./src/global.module.scss"],
       }
     },
   
@@ -56,6 +56,7 @@ export default defineConfig(({ mode }) => {
         '@router': fileURLToPath(new URL('./src/router', import.meta.url)),
         '@stores': fileURLToPath(new URL('./src/stores', import.meta.url)),
         '@views': fileURLToPath(new URL('./src/views', import.meta.url)),
+        '@style': fileURLToPath(new URL('./src/style', import.meta.url)),
       }
     },
   

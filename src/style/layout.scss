@@ -1,0 +1,13 @@
+$default-background-color: #2c275f;
+$default-padding: 0;
+$default-margin: 0;
+$default-width: 100%;
+$default-height: 100%;
+
+@mixin default-layout {
+  background-color: $default-background-color;
+  padding: $default-padding;
+  margin: $default-margin;
+  width: $default-width;
+  height: $default-height;
+}

@@ -1,0 +1,15 @@
+$default-font-family: 'Arial', sans-serif;
+$default-font-size: 16px;
+$default-font-color: #feffef;
+$default-font-weight: 400;
+$default-font-style: normal;
+$default-line-height: normal;
+
+@mixin default-font {
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  font-style: $default-font-style;
+  line-height: $default-line-height;
+  color: $default-font-color;
+}
