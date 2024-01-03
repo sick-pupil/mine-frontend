@@ -1,15 +1,24 @@
+//字体族名
 $default-font-family: 'Arial', sans-serif;
+//字体大小
 $default-font-size: 16px;
+//字体颜色
 $default-font-color: #feffef;
+//字体粗细
 $default-font-weight: 400;
+//字体样式，是否斜体
 $default-font-style: normal;
+//行间距
 $default-line-height: normal;
+//行内水平对齐方式
+$default-text-align: start;
 
 @mixin default-font {
   font-family: $default-font-family;
   font-size: $default-font-size;
+  color: $default-font-color;
   font-weight: $default-font-weight;
   font-style: $default-font-style;
   line-height: $default-line-height;
-  color: $default-font-color;
+  text-align: $default-text-align;
 }

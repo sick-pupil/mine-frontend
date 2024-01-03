@@ -6,8 +6,6 @@ body {
 }
 
 #app {
-  min-width: 100%;
-  min-height: 100%;
   @include default-layout;
   @include default-font;
 }

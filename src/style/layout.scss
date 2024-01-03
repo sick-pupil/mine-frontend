@@ -4,10 +4,22 @@ $default-margin: 0;
 $default-width: 100%;
 $default-height: 100%;
 
+$default-flex-display: flex;
+$default-flex-flow: column nowrap;
+$default-flex-justify-content: center;
+$default-flex-align-items: center;
+
 @mixin default-layout {
   background-color: $default-background-color;
   padding: $default-padding;
   margin: $default-margin;
   width: $default-width;
   height: $default-height;
+}
+
+@mixin default-flex-layout {
+  display: $default-flex-display;
+  flex-flow: $default-flex-flow;
+  justify-content: $default-flex-justify-content;
+  align-items: $default-flex-align-items;
 }

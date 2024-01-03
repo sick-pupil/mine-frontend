@@ -3,9 +3,9 @@
   "exclude": ["node_module", "**/node_modules/*"],
   "compilerOptions": {
     //编译生成的目标代码版本
-    "target": "ES2016",
+    "target": "ES2022",
     //编译生成代码的模板版本标准
-    "module": "ES2015",
+    "module": "ES2022",
     //增量编译
     "incremental": true,
     //增量编译文件存储位置
@@ -52,6 +52,7 @@
     //打印输出文件与编译文件
     "listEmittedFiles": true,
     "listFiles": true,
+    "moduleResolution": "node",
     "paths": {
       "@src/*": ["./src/*"],
       "@public/*": ["./public/*"],
