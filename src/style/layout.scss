@@ -1,4 +1,4 @@
-$default-background-color: #2c275f;
+$default-background-color: #101014;
 $default-padding: 0;
 $default-margin: 0;
 $default-width: 100%;
@@ -8,6 +8,12 @@ $default-flex-display: flex;
 $default-flex-flow: column nowrap;
 $default-flex-justify-content: center;
 $default-flex-align-items: center;
+
+$default-block-backgournd-color: #18181c;
+$default-block-border: 0.5px solid;
+$default-block-border-color: #5ddcae;
+$default-block-border-radius: 25px;
+$default-block-color: white;
 
 @mixin default-layout {
   background-color: $default-background-color;
@@ -22,4 +28,19 @@ $default-flex-align-items: center;
   flex-flow: $default-flex-flow;
   justify-content: $default-flex-justify-content;
   align-items: $default-flex-align-items;
+}
+
+@mixin default-block {
+  display: $default-flex-display;
+  flex-flow: $default-flex-flow;
+  justify-content: $default-flex-justify-content;
+  align-items: $default-flex-align-items;
+
+  color: $default-block-color;
+
+  background-color: $default-block-backgournd-color;
+
+  border: $default-block-border;
+  border-color: $default-block-border-color;
+  border-radius: $default-block-border-radius;
 }

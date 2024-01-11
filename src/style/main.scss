@@ -1,7 +1,7 @@
 @import 'font';
 @import 'layout';
 
-body {
+html, body {
   @include default-layout;
 }
 
