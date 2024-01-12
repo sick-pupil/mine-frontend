@@ -10,9 +10,9 @@ $default-flex-justify-content: center;
 $default-flex-align-items: center;
 
 $default-block-backgournd-color: #18181c;
-$default-block-border: 0.5px solid;
-$default-block-border-color: #5ddcae;
-$default-block-border-radius: 25px;
+$default-block-border: 0px solid;
+//$default-block-border-color: #5ddcae;
+$default-block-border-radius: 15px;
 $default-block-color: white;
 
 @mixin default-layout {
@@ -41,6 +41,6 @@ $default-block-color: white;
   background-color: $default-block-backgournd-color;
 
   border: $default-block-border;
-  border-color: $default-block-border-color;
+  //border-color: $default-block-border-color;
   border-radius: $default-block-border-radius;
 }
