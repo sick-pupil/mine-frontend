@@ -99,10 +99,10 @@
   flex-flow: row nowrap;
   position: absolute;
   top: 45%;
-  left: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  width: 700px;
-  height: 350px;
+  width: 750px;
+  height: 400px;
   background: rgba(0, 0, 0, 0);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
